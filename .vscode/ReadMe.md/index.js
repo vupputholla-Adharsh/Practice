@@ -12,4 +12,12 @@ function findOddNumbers(arr) {
   }
   
   console.log("Odd Numbers:", findOddNumbers(numbers));
+  // Function to print pattern
+function printPattern(n) {
+    for (let i = 1; i <= n; i++) {
+      console.log('*'.repeat(i));
+    }
+  }
+  
+  printPattern(5);  // Print pattern of 5 rows
   
